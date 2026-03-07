@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI 元认知"
+  short_description: "Expose AI judgment, distortion risks, and self-correction"
+  default_prompt: "Use $ai-metacognitive-core to expose the task hypothesis, distortion risks, truth conditions, collaboration boundary, and evolution judgment before acting."
+
+policy:
+  allow_implicit_invocation: false
