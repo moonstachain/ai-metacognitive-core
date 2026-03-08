@@ -118,3 +118,24 @@ Do not default to a normal action plan. Default to a cognitive situation map fir
 - `references/cognitive-core.md`: constitution, ontology layer, distortion layer, and eight-question discipline
 - `references/immune-organ-map.md`: how the root skills function as correction organs
 - `references/situation-map.md`: output format for the four-need situation map
+
+## Local Deployment Notes
+
+This skill is deployable locally as a complete package:
+
+- `agents/openai.yaml`: local skill metadata and default prompt
+- `references/`: reusable support material for the cognitive core
+- `scripts/ai_metacognitive_core.py`: local helper to print the situation-map template and the eight-question discipline
+- `scripts/doctor.py`: static health check for local deployment integrity
+
+Run the helper:
+
+```bash
+python3 /Users/liming/.codex/skills/ai-metacognitive-core/scripts/ai_metacognitive_core.py
+```
+
+Run the health check:
+
+```bash
+python3 /Users/liming/.codex/skills/ai-metacognitive-core/scripts/doctor.py
+```
